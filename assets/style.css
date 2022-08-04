@@ -80,12 +80,31 @@ a:active {
     /* transition: border-bottom 2s ease-in; */
 }
 
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 /* Hero Section */
 #hero-section {
     background-image: url(./images/pexels-andrea-piacquadio-3771074.jpg);
     height: 850px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
 }
+
+/* About Section */
+.about-content-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.about-content-container h3 {
+    text-align: center;
+}
+
+.hr {
+    border-bottom: 1px solid black;
+}
+
