@@ -57,7 +57,7 @@ a:focus {
 a:hover,
 a:active {
     text-decoration: none;
-    color: white;
+    color: var(--yellow-color-two);
     opacity: 0.8;
 }
 
@@ -69,13 +69,15 @@ body {
 
 #header {
     height: 85px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     text-transform: uppercase;
     background-color: var(--primary-color);
     color: white;
     font-size: 18px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #nav-menu {
@@ -88,7 +90,7 @@ body {
 }
 
 #nav-menu li a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--yellow-color-two);
     /* transition: border-bottom 2s ease-in; */
 }
 
@@ -129,27 +131,47 @@ body {
     text-align: center;
 }
 
-.about-content i {
-    width: 35px;
-    height: 35px;
+.about-content .fa-solid {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .hr {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--secondary-color);
     width: 70%;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
+/* Packages Section */
+#packages-section {
+    height: 250px;
+    background-color: #B1740F;
+    margin-bottom: 2rem;
+}
+
+#packages-section h3 {
+    margin: 0 auto;
+    color: white;
+}
+
 /* Contact Form */
 #contact-section h3 {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .contact-form {
     width: 50%;
+    border-right: 1px solid var(--primary-color);
 }
 
 .contact-form .form-control label {
@@ -186,10 +208,6 @@ body {
     width: 50%;
 }
 
-.btn {
-    width: 75%;
-}
-
 
 /* footer */
 #footer {
@@ -211,7 +229,8 @@ body {
 .footer-content .logo,
 .footer-content .created-by,
 .footer-content .social-media {
-    width: 33.3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .footer-content .social-media .fa-brands {
