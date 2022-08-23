@@ -119,6 +119,15 @@ body {
     left: 150px;
 }
 
+.right-hero-content {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    /* position: absolute; */
+    top: 150px;
+    left: 150px;
+}
+
 /* About Section */
 .about-content-container {
     margin-top: 2rem;
@@ -186,6 +195,7 @@ body {
     margin-bottom: 1rem;
     border: none;
     border-bottom: 1px solid var(--yellow-color-one);
+    transition: border-bottom 250ms ease-in;
 }
 
 .contact-form .form-control input:focus {
