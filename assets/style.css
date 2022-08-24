@@ -120,6 +120,7 @@ body {
     margin-top: 1.6rem;
 }
 
+
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -128,6 +129,7 @@ body {
 .my-slides-container {
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 2rem;
 }
 
 .my-slides-container-right h3 {
