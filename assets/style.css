@@ -87,6 +87,7 @@ body {
 
 #nav-menu li {  
    margin-right: 15px;
+   margin-top: 2rem;
 }
 
 #nav-menu li a:hover {
