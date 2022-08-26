@@ -104,7 +104,7 @@ body {
 
 /* Hero Section */
 #hero-section {
-    background: none;
+    background-color: green;
     color: var(--secondary-color);
     height: 850px;
     background-repeat: no-repeat;
@@ -130,6 +130,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 2rem;
+    background-color: white;
 }
 
 .my-slides-container-right h3 {
