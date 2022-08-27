@@ -6,13 +6,51 @@ const leftArrow = document.getElementById("left-arrow");
 // Functions
 function scrollOptions() {
 
+    const heroInfoRight = document.getElementById("hero-info-right");
+    const heroInfoLeft = document.getElementById("hero-info-left");
+
     if (rightArrow == True) {
-        console.log(123)
+        heroInfoRight.innerHTML=`
+        <h3>Private Tutoring Made With Confidence</h3>
+                        <ul>
+                            <li>
+                                One on One Private Tutoring
+                            </li>
+                            <li>
+                                Worldwide Availability
+                            </li>
+                            <li>
+                                Comprehensive understanding of language
+                            </li>
+                            <li>
+                                Communication Classes
+                            </li>
+                            <li>
+                                One Hour Is All you need per class
+                            </li>
+                        </ul>`
     } else if (leftArrow == True) {
-        console.log(321)
+        heroInfoLeft.innerHTML=`
+        <h3>Private Tutoring Made With Confidence</h3>
+                        <ul>
+                            <li>
+                                One on One Private Tutoring
+                            </li>
+                            <li>
+                                Worldwide Availability
+                            </li>
+                            <li>
+                                Comprehensive understanding of language
+                            </li>
+                            <li>
+                                Communication Classes
+                            </li>
+                            <li>
+                                One Hour Is All you need per class
+                            </li>
+                        </ul>`
     };
 
-    scrollOptions();
 };
 
 // Event Listeners
