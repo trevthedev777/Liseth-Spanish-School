@@ -106,7 +106,7 @@ body {
 #hero-section {
     background-color: green;
     color: var(--secondary-color);
-    height: 850px;
+    height: 91vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -117,7 +117,6 @@ body {
     height: 80%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1.6rem;
 }
 
 
@@ -129,6 +128,8 @@ body {
 .my-slides-container {
     display: grid;
     grid-template-columns: auto auto;
+    max-height: 80%;
+    max-width: 100%;
     margin-top: 2rem;
     background-color: white;
 }
