@@ -80,6 +80,10 @@ body {
     justify-content: space-between;
 }
 
+.nav-container > a {
+    margin-top: 2rem;
+}
+
 #nav-menu {
     max-width: 250px;
     display: flex;
