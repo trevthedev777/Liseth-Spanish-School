@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Lato:ital,wght@0,300;1,300&family=Nova+Square&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Questrial&family=Roboto:ital,wght@0,400;0,700;1,300&family=Zen+Kaku+Gothic+Antique:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,6 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: dosis, sans-serif;
 }
 
 :root {
@@ -62,7 +61,7 @@ a:active {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header Section */
@@ -108,7 +107,6 @@ body {
 
 /* Hero Section */
 #hero-section {
-    background-color: green;
     color: var(--secondary-color);
     height: 91vh;
     background-repeat: no-repeat;
@@ -136,6 +134,7 @@ body {
     max-width: 100%;
     margin-top: 2rem;
     background-color: white;
+    padding: 4rem;
 }
 
 .my-slides-container-right h3 {
@@ -146,6 +145,10 @@ body {
     margin-bottom: 1rem;
 }
 
+
+#my-slides-controls {
+    margin: 0 auto;
+}
 
 /* Left and Right Arrows for Sliders  */
 i {
