@@ -147,40 +147,36 @@ body {
 
 .my-content-container {
     max-height: 100%;
-    /* color: var(--yellow-color-three); */
     color: whitesmoke;
     max-width: 100%;
     padding: 4rem;
-    padding-top: 15rem;
-    /* position: absolute;
-    top: 150px; */
+    padding-top: 12rem;
 }
 
 .my-content-container h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 2rem;
     font-weight: 800;
 }
 
 .my-content-container p {
-    font-size: 3.25rem;
+    font-size: 3rem;
     font-weight: 200;
 }
 
-.fa-user-group {
+.yellow {
     color: var(--colombia-yellow);
+    font-weight: 600;
 }
 
-.fa-heart {
+.blue {
     color: var(--colombia-blue);
+    font-weight: 600;
 }
 
-.fa-arrow-trend-up {
+.red {
     color: var(--colombia-red);
-}
-
-#button {
-    margin: 0 auto;
+    font-weight: 600;
 }
 
 .btn {
@@ -204,6 +200,12 @@ body {
     color: var(--primary-color);
     box-shadow: 0 10px 8px -4px var(--primary-color);
     opacity: .9;
+}
+
+.heading-background {
+    background-color: #000;
+    opacity: 0.9;
+    padding: 4.5rem;
 }
 
 /* --------------------------- About Section */
