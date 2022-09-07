@@ -15,6 +15,9 @@
     --yellow-color-one: #FDB833;
     --yellow-color-two: #FFD07B;
     --yellow-color-three: #B1740F;
+    --colombia-blue: #003087;
+    --colombia-yellow: #FFCD00;
+    --colombia-red: #C8102E;
 }
 
 /* Global Styles */
@@ -107,6 +110,7 @@ body {
 
 /* Hero Section */
 #hero-section {
+    position: relative;
     background: url("https://images.unsplash.com/photo-1590681713379-41da9f6be849?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80");
     color: var(--secondary-color);
     height: 91vh;
@@ -126,24 +130,22 @@ body {
 @keyframes hero-text {
     from{
         opacity: 0;
+        transform: translateY(-3000px);
         display: none;
         color: white;
     }
-
+    
     to {
         opacity: 100%;
+        transform: translateY(0);
         display: block;
         color: var(--secondary-color);
     }
 }
 
+/* --------------------------- Content Container */
 
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
-
-.my-slides-container {
+.my-content-container {
     max-height: 100%;
     /* color: var(--yellow-color-three); */
     color: whitesmoke;
@@ -154,20 +156,42 @@ body {
     top: 150px; */
 }
 
-.content-container-right h3 {
-    margin-bottom: 1rem;
+.my-content-container h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
 }
 
-.content-container-right li {
-    margin-bottom: 1rem;
+.my-content-container p {
+    font-size: 3.25rem;
+    font-weight: 200;
+}
+
+.fa-user-group {
+    color: var(--colombia-yellow);
+}
+
+.fa-heart {
+    color: var(--colombia-blue);
+}
+
+.fa-arrow-trend-up {
+    color: var(--colombia-red);
+}
+
+#button {
+    margin: 0 auto;
 }
 
 .btn {
+    text-align: center;
     padding: 1.25rem 2.5rem;
     border-style: none;
     border-radius: 10px;
     background-color: var(--primary-color);
     color: white;
+    width: 40%;
+    font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -179,14 +203,10 @@ body {
     background-color: white;
     color: var(--primary-color);
     box-shadow: 0 10px 8px -4px var(--primary-color);
+    opacity: .9;
 }
 
-/* Left and Right Arrows for Sliders  */
-i {
-    color: var(--secondary-color);
-}
-
-/* About Section */
+/* --------------------------- About Section */
 .about-content-container {
     margin-top: 2rem;
     display: grid;
