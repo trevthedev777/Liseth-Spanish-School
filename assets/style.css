@@ -107,6 +107,7 @@ body {
 
 /* Hero Section */
 #hero-section {
+    background: url("https://images.unsplash.com/photo-1590681713379-41da9f6be849?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80");
     color: var(--secondary-color);
     height: 91vh;
     background-repeat: no-repeat;
@@ -119,7 +120,21 @@ body {
     height: 80%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 10rem;
+    animation: hero-text 1000ms ease 100ms;
+}
+
+@keyframes hero-text {
+    from{
+        opacity: 0;
+        display: none;
+        color: white;
+    }
+
+    to {
+        opacity: 100%;
+        display: block;
+        color: var(--secondary-color);
+    }
 }
 
 
@@ -129,13 +144,14 @@ body {
 }
 
 .my-slides-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    max-height: 80%;
+    max-height: 100%;
+    /* color: var(--yellow-color-three); */
+    color: whitesmoke;
     max-width: 100%;
-    margin-top: 2rem;
-    background-color: white;
     padding: 4rem;
+    padding-top: 15rem;
+    /* position: absolute;
+    top: 150px; */
 }
 
 .content-container-right h3 {
