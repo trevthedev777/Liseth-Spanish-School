@@ -216,11 +216,10 @@ body {
 /* --------------------------- About Section */
 
 #about-section {
-    height: 350px;
+    /* height: 350px; */
 }
 
 .about-content-container {
-    margin-top: 2rem;
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 1200px;
@@ -233,13 +232,31 @@ body {
 .about-content-container .about-content {
     text-align: center;
     line-height: 26px;
+    padding: 2rem;
 }
 
-.about-content-container .about-content .fa-solid {
+.about-content-container .about-content:first-of-type:hover {
+    background-color: var(--colombia-yellow);
+    color: black;
+}
+
+.about-content-container .about-content:nth-of-type(2):hover {
+    background-color: var(--colombia-blue);
+    color: white;
+}
+
+.about-content-container .about-content:last-of-type:hover {
+    background-color: var(--colombia-red);
+    color: white;
+}
+
+.about-content-container .about-content:last-child {
+    margin-right: 0;
+}
+
+.about-content-container .about-content .about-icon {
     margin: 0 auto;
-    font-size: larger;
-    width: 100px;
-    height: 100px;
+    font-size: 20px;
 }
 
 .hr {
