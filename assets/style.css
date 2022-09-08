@@ -70,11 +70,10 @@ body {
 /* Header Section */
 
 #header {
-    height: 85px;
+    height: 65px;
     text-transform: uppercase;
     background-color: var(--primary-color);
     font-size: 18px;
-    opacity: 0.7;
 }
 
 .nav-container {
@@ -85,7 +84,7 @@ body {
 }
 
 .nav-container > a {
-    margin-top: 2rem;
+    margin-top: 1.4rem;
 }
 
 #nav-menu {
@@ -95,7 +94,7 @@ body {
 
 #nav-menu li {  
    margin-right: 15px;
-   margin-top: 2rem;
+   margin-top: 1.4rem;
 }
 
 #nav-menu li a:hover {
@@ -152,17 +151,17 @@ body {
     color: whitesmoke;
     max-width: 100%;
     padding: 4rem;
-    padding-top: 12rem;
+    padding-top: 11rem;
 }
 
 .my-content-container h1 {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
     font-weight: 800;
 }
 
 .my-content-container p {
-    font-size: 3rem;
+    font-size: 1.3rem;
     font-weight: 200;
 }
 
@@ -208,7 +207,7 @@ body {
 .heading-background {
     background-color: #000;
     opacity: 0.9;
-    padding: 4.5rem;
+    padding: 2rem;
     height: 100%;
     width: 100%;
 }
