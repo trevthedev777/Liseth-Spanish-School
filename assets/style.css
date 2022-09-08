@@ -61,6 +61,7 @@ a:active {
     text-decoration: none;
     color: var(--yellow-color-two);
     opacity: 0.8;
+    border-bottom: var(--colombia-yellow);
 }
 
 body {
@@ -217,20 +218,28 @@ body {
 #about-section {
     height: 350px;
 }
+
 .about-content-container {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    height: 250px;
+    max-width: 1200px;
 }
 
 .about-content-container h3 {
     text-align: center;
 }
 
-.about-content .fa-solid {
+.about-content-container .about-content {
     text-align: center;
-    font-size: 2rem;
+    line-height: 26px;
+}
+
+.about-content-container .about-content .fa-solid {
+    margin: 0 auto;
+    font-size: larger;
+    width: 100px;
+    height: 100px;
 }
 
 .hr {
