@@ -218,19 +218,29 @@ body {
 .about-profile  {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto; */
     padding: 2rem 0;
 }
 
-.about-profile img {
+.about-profile .about-profile-img {
     background: url("./images/IMG_6120.jpg") ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 350px;
     height: 350px;
+}
+
+.about-profile-info h3 {
+    margin-bottom: 2rem;
 }
 
 .about-content-container {
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 1200px;
+    padding: 2rem ;
 }
 
 .about-content-container h3 {
@@ -245,7 +255,7 @@ body {
 
 .about-content-container .about-content:first-of-type:hover {
     background-color: var(--colombia-yellow);
-    color: black;
+    color: white;
     transition: background-color 250ms ease-in, color 300ms ease-in;
 }
 
