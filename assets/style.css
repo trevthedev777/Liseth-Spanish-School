@@ -224,7 +224,7 @@ body {
 }
 
 .about-profile .about-profile-img {
-    background: url("./images/IMG_6120.jpg") ;
+    background: url("./images/IMG_6121.jpg") ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -243,6 +243,7 @@ body {
     padding: 2rem ;
 }
 
+/* ------------------------------- About Content Bottom */
 .about-content-container h3 {
     text-align: center;
 }
@@ -289,19 +290,30 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Packages Section */
+small {
+    display: block;
+}
+
+/* -----------------------------------Packages Section */
 #packages-section {
     height: 250px;
-    background-color: #B1740F;
-    margin-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 #packages-section h3 {
     margin: 0 auto;
-    color: white;
+    text-align: center;
 }
 
-/* Contact Form */
+.packages-content {
+    padding: 3rem 0;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* -----------------------------------Contact Form */
 #contact-section h3 {
     text-align: center;
     font-size: 2rem;
