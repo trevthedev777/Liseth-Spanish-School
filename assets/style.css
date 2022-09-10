@@ -296,11 +296,11 @@ small {
 
 /* -----------------------------------Packages Section */
 #packages-section {
-    height: 250px;
     padding: 2rem 0;
+    margin-bottom: 2rem;
 }
 
-#packages-section h3 {
+#packages-section h2 {
     margin: 0 auto;
     text-align: center;
 }
@@ -311,6 +311,28 @@ small {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    background: url("https: //images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.packages-content h4 {
+    text-align: center;
+    padding-bottom: 1.25rem;
+    letter-spacing: 1.25px;
+}
+
+.list-items {
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.list-items li {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.list-items li:last-of-type {
+    margin-bottom: 0;
 }
 
 /* -----------------------------------Contact Form */
