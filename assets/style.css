@@ -294,10 +294,22 @@ small {
     display: block;
 }
 
+/* -----------------------------------Banner */
+#banner {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    background: url("https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center -350px;
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+    height: 450px;
+    color: white;
+}
+
 /* -----------------------------------Packages Section */
 #packages-section {
     padding: 2rem 0;
-    margin-bottom: 2rem;
+    height: 500px;
 }
 
 #packages-section h2 {
@@ -310,20 +322,19 @@ small {
     width: 1200px;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
-    background: url("https: //images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    margin: 0 auto;   
 }
 
 .packages-content h4 {
     text-align: center;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
     letter-spacing: 1.25px;
 }
 
-.list-items {
-    border: 2px solid var(--secondary-color);
-    border-radius: 10px;
-    padding: 2rem;
+.private-tutoring,
+.group-tutoring {
+    background-color: white;
+    color: black;
 }
 
 .list-items li {
@@ -331,8 +342,14 @@ small {
     text-align: center;
 }
 
+.list-items li:first-of-type {
+    border-top: 1px solid var(--primary-color);
+    padding-top: 1rem;
+}
+
 .list-items li:last-of-type {
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /* -----------------------------------Contact Form */
@@ -349,8 +366,7 @@ small {
 }
 
 .contact-form {
-    width: 50%;
-    border-right: 1px solid var(--primary-color);
+    width: 40%;
 }
 
 .contact-form .form-control label {
@@ -382,10 +398,6 @@ small {
 .contact-form .form-control textarea:focus {
     outline: none;
     border: 1px solid var(--primary-color);
-}
-
-.contact-information {
-    width: 50%;
 }
 
 
