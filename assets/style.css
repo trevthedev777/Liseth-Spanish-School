@@ -215,8 +215,16 @@ body {
 
 /* --------------------------- About Section */
 
-#about-section {
-    /* height: 350px; */
+.about-profile  {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.about-profile img {
+    background: url("./images/IMG_6120.jpg") ;
+    width: 350px;
+    height: 350px;
 }
 
 .about-content-container {
@@ -238,20 +246,24 @@ body {
 .about-content-container .about-content:first-of-type:hover {
     background-color: var(--colombia-yellow);
     color: black;
+    transition: background-color 250ms ease-in, color 300ms ease-in;
 }
 
 .about-content-container .about-content:nth-of-type(2):hover {
     background-color: var(--colombia-blue);
     color: white;
+    transition: background-color 250ms ease-in, color 300ms ease-in;
 }
 
 .about-content-container .about-content:last-of-type:hover {
     background-color: var(--colombia-red);
     color: white;
+    transition: background-color 250ms ease-in, color 300ms ease-in;
 }
 
 .about-content-container .about-content:last-child {
     margin-right: 0;
+   
 }
 
 .about-content-container .about-content .about-icon {
