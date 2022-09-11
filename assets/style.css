@@ -361,7 +361,6 @@ small {
 #contact-section h3 {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 2rem;
 }
 
 .contact-form {
@@ -371,16 +370,16 @@ small {
 
 .contact-form .form-control {
     display: flex;
-
+    justify-content: space-evenly;
 }
+
 .contact-form .form-control label {
-    font-size: 1.2rem;
     display: block;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .contact-form .form-control input {
-    width: 40%;
+    display: block;
     padding: 1.1rem 2rem;
     margin-bottom: 1rem;
     border: none;
@@ -394,8 +393,8 @@ small {
 }
 
 .contact-form .form-control textarea {
-    width: 100%;
-    margin-bottom: 1rem;
+    width: 70%;
+    margin: 0 0 1rem 0 ;
     border: 1px solid var(--yellow-color-one);
     transition: border 250ms ease-in;
 }
@@ -405,8 +404,30 @@ small {
     border: 1px solid var(--primary-color);
 }
 
+#contact-section .container .contact-heading,
+.contact-form .message-heading {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
 .form-btn {
     margin: 0 auto;
+    padding: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 42.5%;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    margin-left: 42.5%;
+    opacity: 0.8;
 }
 
 
