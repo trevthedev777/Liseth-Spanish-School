@@ -436,7 +436,7 @@ small {
     height: 75px;
     background-color: var(--primary-color);
     margin-top: 3rem;
-    color: var(--yellow-color-two);
+    color: white;
     width: 100%;
 }
 
@@ -458,5 +458,5 @@ small {
 .footer-content .social-media .fa-brands {
     font-size: 1.5rem;
     margin-left: 2rem;
-    color: var(--yellow-color-two);
+    color: white;
 }
