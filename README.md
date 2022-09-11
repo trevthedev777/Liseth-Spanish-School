@@ -8,6 +8,14 @@ The web application was designed for those who are learning to speak the Spanish
 
 The website provides an overview of the services that are offered such as private or group classes for up to 3 students per class as the main focus behind the website it to promote personalized teaching and learning that helps students to grow confident in their ability to learn, write and speak the spanish language
 
+## Features
+
+### Contact Form
+
+The Website has very few features at the moment, however it does allow the user to send a request for contact using a form that has Javascript validation
+
+The user will insert their `name` and `email address`, a `subject` and then followed by a `message` detailing either their interest to acquire more information of to enroll via email
+
 ## Techonologies Used
 
 -   VS Code
