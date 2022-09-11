@@ -84,7 +84,7 @@ body {
     justify-content: space-between;
 }
 
-.nav-container > a {
+.nav-container>a {
     margin-top: 1.4rem;
 }
 
@@ -93,9 +93,9 @@ body {
     display: flex;
 }
 
-#nav-menu li {  
-   margin-right: 15px;
-   margin-top: 1.4rem;
+#nav-menu li {
+    margin-right: 15px;
+    margin-top: 1.4rem;
 }
 
 #nav-menu li a:hover {
@@ -107,7 +107,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    
+
 }
 
 /* Hero Section */
@@ -130,13 +130,13 @@ body {
 }
 
 @keyframes hero-text {
-    from{
+    from {
         opacity: 0;
         /* transform: translateY(-3000px); */
         display: none;
         color: white;
     }
-    
+
     to {
         opacity: 100%;
         /* transform: translateY(0); */
@@ -215,7 +215,7 @@ body {
 
 /* --------------------------- About Section */
 
-.about-profile  {
+.about-profile {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -224,7 +224,7 @@ body {
 }
 
 .about-profile .about-profile-img {
-    background: url("./images/IMG_6121.jpg") ;
+    background: url("./images/IMG_6121.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 1200px;
-    padding: 2rem ;
+    padding: 2rem;
 }
 
 /* ------------------------------- About Content Bottom */
@@ -274,7 +274,7 @@ body {
 
 .about-content-container .about-content:last-child {
     margin-right: 0;
-   
+
 }
 
 .about-content-container .about-content .about-icon {
@@ -308,7 +308,6 @@ small {
 
 /* -----------------------------------Packages Section */
 #packages-section {
-    padding: 2rem 0;
     height: 500px;
 }
 
@@ -322,7 +321,7 @@ small {
     width: 1200px;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .packages-content h4 {
@@ -352,31 +351,36 @@ small {
     padding-bottom: 0;
 }
 
-/* -----------------------------------Contact Form */
+/* -----------------------------------------Contact Form */
+
+#contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #contact-section h3 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.contact-form-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .contact-form {
-    width: 40%;
+    width: 850px;
+    margin: 0 auto;
 }
 
+.contact-form .form {
+    display: flex;
+
+}
 .contact-form .form-control label {
-    display: block;
     font-size: 1.2rem;
+    display: block;
     margin-bottom: 1rem;
 }
 
 .contact-form .form-control input {
-    width: 75%;
+    width: 40%;
     padding: 1.1rem 2rem;
     margin-bottom: 1rem;
     border: none;
@@ -390,14 +394,19 @@ small {
 }
 
 .contact-form .form-control textarea {
-    width: 75%;
+    width: 100%;
     margin-bottom: 1rem;
     border: 1px solid var(--yellow-color-one);
+    transition: border 250ms ease-in;
 }
 
 .contact-form .form-control textarea:focus {
     outline: none;
     border: 1px solid var(--primary-color);
+}
+
+.form-btn {
+    margin: 0 auto;
 }
 
 
