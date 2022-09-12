@@ -460,3 +460,93 @@ small {
     margin-left: 2rem;
     color: white;
 }
+
+/* --------------------------------------- Media Queries */
+
+
+@media (max-width: 1000px) {
+    .packages-content {
+            max-width: 850px;
+        }
+}
+
+
+/* For Screens 850px and smaller */
+@media (max-width: 850px) {
+
+    #header {
+        height: 100px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: var(--primary-color);
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    nav {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .nav-container {
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-menu {
+        margin: 0 auto;
+    }
+
+    .about-profile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-profile .about-profile-img {
+        margin-bottom: 2rem;
+    }
+
+    .my-content-container h1 {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        font-weight: 800;
+    }
+
+    .my-content-container p {
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+    .about-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 40%;
+    }
+    
+    .packages-content {
+        max-width: 850px;
+        padding: 3rem 0;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
+    
+    /* For Screens 400px and smaller */
+    @media (max-width: 400px) {
+        
+        .packages-content {
+            flex-direction: column;
+        }
+}
