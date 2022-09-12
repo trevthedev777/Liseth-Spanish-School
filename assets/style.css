@@ -113,7 +113,7 @@ body {
 /* Hero Section */
 #hero-section {
     position: relative;
-    background: url("https://images.unsplash.com/photo-1590681713379-41da9f6be849?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1010&q=80");
+    background: url("https://cdn.pixabay.com/photo/2019/09/07/02/25/city-4457801_960_720.jpg");
     color: var(--secondary-color);
     height: 91vh;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ small {
 
 
 /* For Screens 850px and smaller */
-@media (max-width: 850px) {
+@media (max-width: 825px) {
 
     #header {
         height: 100px;
@@ -502,7 +502,7 @@ small {
     }
 
     .about-profile {
-        flex-direction: column;
+        flex-direction: column; /* show lis col reverse */
         justify-content: center;
         align-items: center;
         text-align: center;
