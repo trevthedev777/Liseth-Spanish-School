@@ -34,4 +34,8 @@ The user will insert their `name` and `email address`, a `subject` and then foll
 
 ## Refrences
 
+
+## Credits
+
+Thanks to `Abit Salihu` for his contributions in helping make the website responsive
 ..
