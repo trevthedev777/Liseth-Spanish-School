@@ -10,6 +10,8 @@ The website provides an overview of the services that are offered such as privat
 
 ## Features
 
+## Booking Feature
+
 ## Whatsapp Connect
 
 Using the whatsapp business API, a user can connect by clicking on the fixed `Whatsapp Icon` on the screen and they will be redirected to the app using either their mobile phones or computers
@@ -33,7 +35,6 @@ The user will insert their `name` and `email address`, a `subject` and then foll
 -   Google Fonts
 
 ## Refrences
-
 
 ## Credits
 
