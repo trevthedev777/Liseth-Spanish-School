@@ -24,7 +24,7 @@ The user will insert their `name` and `email address`, a `subject` and then foll
 
 If a user inputs any blank fields, an alert will appear on the screen to advise the suer to correct their form entries
 
-## Techonologies Used
+## Technologies Used
 
 -   VS Code
 -   Git
@@ -36,7 +36,7 @@ If a user inputs any blank fields, an alert will appear on the screen to advise 
 -   FontAwesome
 -   Google Fonts
 
-## Refrences
+## References
 
 ## Credits
 

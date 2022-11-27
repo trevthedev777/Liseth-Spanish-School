@@ -74,11 +74,10 @@ body {
 /* Header Section */
 
 #header {
-  height: 65px;
+  height: 100px;
   text-transform: uppercase;
   background-color: var(--primary-color);
   font-size: 18px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,9 +87,12 @@ body {
   height: 100%;
   width: 90%;
   display: flex;
-
   justify-content: space-between;
   align-items: center;
+}
+
+#header .nav-container .logo {
+  width: 300px;
 }
 
 #nav-menu {
@@ -477,6 +479,10 @@ small {
   font-size: 1.5rem;
   margin-left: 2rem;
   color: white;
+}
+
+.footer-content img {
+  width: 200px;
 }
 
 /* --------------------------------------- Media Queries */
