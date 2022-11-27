@@ -12,16 +12,17 @@ The website provides an overview of the services that are offered such as privat
 
 ## Booking Feature
 
-
 ## Whatsapp Connect
 
-Using the whatsapp business API, a user can connect by clicking on the fixed `Whatsapp Icon` on the screen and they will be redirected to the app using either their mobile phones or computers
+Using the whatsapp business API, a user can connect by clicking on the fixed `Whatsapp Icon` on the screen and they will be redirected to the app using either their mobile phones or computers, the same feature is found on the footer by clicking on the `Whatsapp Icon`
 
 ### Contact Form
 
 The Website has very few features at the moment, however it does allow the user to send a request for contact using a form that has Javascript validation
 
 The user will insert their `name` and `email address`, a `subject` and then followed by a `message` detailing either their interest to acquire more information of to enroll via email
+
+If a user inputs any blank fields, an alert will appear on the screen to advise the suer to correct their form entries
 
 ## Techonologies Used
 
