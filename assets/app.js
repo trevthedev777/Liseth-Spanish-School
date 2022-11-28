@@ -5,4 +5,5 @@ function validateForm() {
     alert("Name and email cannot be empty");
     return false;
   }
-}
+};
+
