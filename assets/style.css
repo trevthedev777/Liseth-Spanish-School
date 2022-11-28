@@ -219,9 +219,10 @@ body {
 
 /* --------------------------- About Section */
 
+
+
 .about-profile {
   display: flex;
-
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
@@ -240,6 +241,12 @@ body {
 
 .about-profile-info h3 {
   margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.about-profile-info {
+  width: 60%;
+  margin-top: 6.5rem;
 }
 
 /* ------------------------------- About Content Bottom */
