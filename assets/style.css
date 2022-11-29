@@ -135,14 +135,27 @@ body {
   width: 80%;
   height: 80%;
   text-align: center;
-  animation: hero-text 1000ms ease 100ms;
+  animation: hero-text 1500ms ease 100ms;
+}
+
+@keyframes hero-text {
+  from {
+    opacity: 0;
+    transform: translateY(-3000px);
+    display: none;
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+    display: block;
+  }
 }
 
 #hero-section .fa-brands {
   display: flex;
   justify-content: center;
   align-items: center;
-  content: '';
   position: absolute;
   bottom: 75px;
   right: 35px;
@@ -154,33 +167,31 @@ body {
   background-color: white;
   cursor: pointer;
   font-size: 3rem;
-  transition: all 500ms ease ;
+  transition: all 500ms ease;
+  animation: start-position 3000ms ease 100ms;
+}
+
+@keyframes start-position {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+    display: none;
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateX(0);
+    display: block;
+  }
 }
 
 #hero-section .fa-brands:hover {
   -webkit-box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
   -moz-box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
   box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
-  /* opacity: 1; */
   transform: translateY(-10px);
   color: #fff;
   background-color: var(--whatsapp-green);
-}
-
-@keyframes hero-text {
-  from {
-    opacity: 0;
-    /* transform: translateY(-3000px); */
-    display: none;
-    color: white;
-  }
-
-  to {
-    opacity: 100%;
-    /* transform: translateY(0); */
-    display: block;
-    color: var(--secondary-color);
-  }
 }
 
 /* --------------------------- Content Container */
