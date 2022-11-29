@@ -19,6 +19,7 @@
   --colombia-blue: #003087;
   --colombia-yellow: #ffcd00;
   --colombia-red: #c8102e;
+  --whatsapp-green: #25D366;
 }
 
 /* Global Styles */
@@ -61,7 +62,6 @@ a:hover,
 a:active {
   text-decoration: none;
   color: var(--yellow-color-two);
-  opacity: 0.8;
   border-bottom: var(--colombia-yellow);
 }
 
@@ -106,7 +106,7 @@ body {
 
 #nav-menu li a:hover {
   border-bottom: 2px solid var(--primary-color);
-  /* transition: border-bottom 2s ease-in; */
+  transition: border-bottom 2s ease-in;
 }
 
 /* Hero Section */
@@ -124,6 +124,13 @@ body {
   align-items: center;
 }
 
+.whatsapp-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
 .hero-content {
   width: 80%;
   height: 80%;
@@ -132,15 +139,32 @@ body {
 }
 
 #hero-section .fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: '';
   position: absolute;
-  background-color: white;
-  top: 150px;
-  right: 25px;
-  width: 100px;
-  height: 100px;
+  bottom: 75px;
+  right: 35px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   position: fixed;
-  color: black;
+  color: var(--whatsapp-green);
+  background-color: white;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: all 500ms ease ;
+}
+
+#hero-section .fa-brands:hover {
+  -webkit-box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
+  -moz-box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
+  box-shadow: -1px 6px 32px 1px rgba(37, 211, 102, 1);
+  /* opacity: 1; */
+  transform: translateY(-10px);
+  color: #fff;
+  background-color: var(--whatsapp-green);
 }
 
 @keyframes hero-text {
@@ -342,7 +366,6 @@ small {
 #packages-section h2 {
   margin: 0 auto;
   text-align: center;
-
   width: 100%;
 }
 .packages-container {
