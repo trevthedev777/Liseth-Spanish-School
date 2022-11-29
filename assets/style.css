@@ -20,6 +20,9 @@
   --colombia-yellow: #ffcd00;
   --colombia-red: #c8102e;
   --whatsapp-green: #25D366;
+
+  --size-bezel: 0.5rem;
+  --size-radius: 4px;
 }
 
 /* Global Styles */
@@ -202,6 +205,13 @@ body {
   width: 70%;
   padding: 4rem;
   text-align: center;
+  position: relative;
+}
+
+.hero-content .logo {
+  width: 700px;
+  top: px;
+  position: absolute;
 }
 
 .my-content-container h1 {
@@ -429,6 +439,7 @@ small {
 #contact-section h3 {
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 .contact-form {
@@ -447,10 +458,11 @@ small {
 
 .contact-form .form-control input {
   display: block;
-  padding: 1.1rem 2rem;
+  padding: 1.25rem 2.5rem;
+  width: 100%;
   margin-bottom: 1rem;
-  border: none;
-  border-bottom: 1px solid var(--yellow-color-one);
+  border: 1px solid var(--primary-color);
+  /* border-bottom: 1px solid var(--yellow-color-one); */
   transition: border-bottom 250ms ease-in;
 }
 
@@ -589,3 +601,43 @@ small {
     margin-top: 100px;
   }
 }
+
+
+/* Inputs */
+.input {
+  position: relative;  
+}
+
+
+.input-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: calc(var(--size-bezel) * 0.75) calc((--size-bezel) * 0.5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc((--size-bezel) * 0.5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.input-field {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border: 3px solid currentColor;
+  padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+  color: currentColor;
+  background: transparent;
+  border-radius: var(--size-radius);
+}
+
+/* input:focus,
+input:not(:placeholder-shown) + input.input-label {
+    transform: translate(0.25rem, -65%) scale(0.8);
+    color: var(--color-accent);
+} */
